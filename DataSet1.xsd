@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Settings" msprop:Generator_TableClassName="SettingsDataTable" msprop:Generator_TableVarName="tableSettings" msprop:Generator_TablePropName="Settings" msprop:Generator_RowDeletingName="SettingsRowDeleting" msprop:Generator_UserTableName="Settings" msprop:Generator_RowChangingName="SettingsRowChanging" msprop:Generator_RowEvHandlerName="SettingsRowChangeEventHandler" msprop:Generator_RowDeletedName="SettingsRowDeleted" msprop:Generator_RowEvArgName="SettingsRowChangeEvent" msprop:Generator_RowChangedName="SettingsRowChanged" msprop:Generator_RowClassName="SettingsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LoginSQL" msprop:Generator_ColumnVarNameInTable="columnLoginSQL" msprop:Generator_ColumnPropNameInRow="LoginSQL" msprop:Generator_ColumnPropNameInTable="LoginSQLColumn" msprop:Generator_UserColumnName="LoginSQL" type="xs:string" minOccurs="0" />
+              <xs:element name="HasloSQL" msprop:Generator_ColumnVarNameInTable="columnHasloSQL" msprop:Generator_ColumnPropNameInRow="HasloSQL" msprop:Generator_ColumnPropNameInTable="HasloSQLColumn" msprop:Generator_UserColumnName="HasloSQL" type="xs:string" minOccurs="0" />
+              <xs:element name="FirmaXL" msprop:Generator_ColumnVarNameInTable="columnFirmaXL" msprop:Generator_ColumnPropNameInRow="FirmaXL" msprop:Generator_ColumnPropNameInTable="FirmaXLColumn" msprop:Generator_UserColumnName="FirmaXL" type="xs:string" minOccurs="0" />
+              <xs:element name="LoginXL" msprop:Generator_ColumnVarNameInTable="columnLoginXL" msprop:Generator_ColumnPropNameInRow="LoginXL" msprop:Generator_ColumnPropNameInTable="LoginXLColumn" msprop:Generator_UserColumnName="LoginXL" type="xs:string" minOccurs="0" />
+              <xs:element name="HasloXL" msprop:Generator_ColumnVarNameInTable="columnHasloXL" msprop:Generator_ColumnPropNameInRow="HasloXL" msprop:Generator_ColumnPropNameInTable="HasloXLColumn" msprop:Generator_UserColumnName="HasloXL" type="xs:string" minOccurs="0" />
+              <xs:element name="WlaczEmail" msprop:Generator_ColumnVarNameInTable="columnWlaczEmail" msprop:Generator_ColumnPropNameInRow="WlaczEmail" msprop:Generator_ColumnPropNameInTable="WlaczEmailColumn" msprop:Generator_UserColumnName="WlaczEmail" type="xs:string" minOccurs="0" />
+              <xs:element name="ZamknijZadanie" msprop:Generator_ColumnVarNameInTable="columnZamknijZadanie" msprop:Generator_ColumnPropNameInRow="ZamknijZadanie" msprop:Generator_ColumnPropNameInTable="ZamknijZadanieColumn" msprop:Generator_UserColumnName="ZamknijZadanie" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailAdres" msprop:Generator_ColumnVarNameInTable="columnEmailAdres" msprop:Generator_ColumnPropNameInRow="EmailAdres" msprop:Generator_ColumnPropNameInTable="EmailAdresColumn" msprop:Generator_UserColumnName="EmailAdres" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailHaslo" msprop:Generator_ColumnVarNameInTable="columnEmailHaslo" msprop:Generator_ColumnPropNameInRow="EmailHaslo" msprop:Generator_ColumnPropNameInTable="EmailHasloColumn" msprop:Generator_UserColumnName="EmailHaslo" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailSMTPSerwer" msprop:Generator_ColumnVarNameInTable="columnEmailSMTPSerwer" msprop:Generator_ColumnPropNameInRow="EmailSMTPSerwer" msprop:Generator_ColumnPropNameInTable="EmailSMTPSerwerColumn" msprop:Generator_UserColumnName="EmailSMTPSerwer" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailSMTPPort" msprop:Generator_ColumnVarNameInTable="columnEmailSMTPPort" msprop:Generator_ColumnPropNameInRow="EmailSMTPPort" msprop:Generator_ColumnPropNameInTable="EmailSMTPPortColumn" msprop:Generator_UserColumnName="EmailSMTPPort" type="xs:int" minOccurs="0" />
+              <xs:element name="EmailSMTPSSL" msprop:Generator_ColumnVarNameInTable="columnEmailSMTPSSL" msprop:Generator_ColumnPropNameInRow="EmailSMTPSSL" msprop:Generator_ColumnPropNameInTable="EmailSMTPSSLColumn" msprop:Generator_UserColumnName="EmailSMTPSSL" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailTemat" msprop:Generator_ColumnVarNameInTable="columnEmailTemat" msprop:Generator_ColumnPropNameInRow="EmailTemat" msprop:Generator_ColumnPropNameInTable="EmailTematColumn" msprop:Generator_UserColumnName="EmailTemat" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailText" msprop:Generator_ColumnVarNameInTable="columnEmailText" msprop:Generator_ColumnPropNameInRow="EmailText" msprop:Generator_ColumnPropNameInTable="EmailTextColumn" msprop:Generator_UserColumnName="EmailText" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailSMTPLogin" msprop:Generator_ColumnVarNameInTable="columnEmailSMTPLogin" msprop:Generator_ColumnPropNameInRow="EmailSMTPLogin" msprop:Generator_ColumnPropNameInTable="EmailSMTPLoginColumn" msprop:Generator_UserColumnName="EmailSMTPLogin" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Raporty" msprop:Generator_TableClassName="RaportyDataTable" msprop:Generator_TableVarName="tableRaporty" msprop:Generator_TablePropName="Raporty" msprop:Generator_RowDeletingName="RaportyRowDeleting" msprop:Generator_UserTableName="Raporty" msprop:Generator_RowChangingName="RaportyRowChanging" msprop:Generator_RowEvHandlerName="RaportyRowChangeEventHandler" msprop:Generator_RowDeletedName="RaportyRowDeleted" msprop:Generator_RowEvArgName="RaportyRowChangeEvent" msprop:Generator_RowChangedName="RaportyRowChanged" msprop:Generator_RowClassName="RaportyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GIDTyp" msprop:Generator_ColumnVarNameInTable="columnGIDTyp" msprop:Generator_ColumnPropNameInRow="GIDTyp" msprop:Generator_ColumnPropNameInTable="GIDTypColumn" msprop:Generator_UserColumnName="GIDTyp" type="xs:int" minOccurs="0" />
+              <xs:element name="TypWydruku" msprop:Generator_ColumnVarNameInTable="columnTypWydruku" msprop:Generator_ColumnPropNameInRow="TypWydruku" msprop:Generator_ColumnPropNameInTable="TypWydrukuColumn" msprop:Generator_UserColumnName="TypWydruku" type="xs:string" minOccurs="0" />
+              <xs:element name="Zrodlo" msprop:Generator_ColumnVarNameInTable="columnZrodlo" msprop:Generator_ColumnPropNameInRow="Zrodlo" msprop:Generator_ColumnPropNameInTable="ZrodloColumn" msprop:Generator_UserColumnName="Zrodlo" type="xs:int" minOccurs="0" />
+              <xs:element name="WydrukID" msprop:Generator_ColumnVarNameInTable="columnWydrukID" msprop:Generator_ColumnPropNameInRow="WydrukID" msprop:Generator_ColumnPropNameInTable="WydrukIDColumn" msprop:Generator_UserColumnName="WydrukID" type="xs:int" minOccurs="0" />
+              <xs:element name="FormatID" msprop:Generator_ColumnVarNameInTable="columnFormatID" msprop:Generator_ColumnPropNameInRow="FormatID" msprop:Generator_ColumnPropNameInTable="FormatIDColumn" msprop:Generator_UserColumnName="FormatID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
